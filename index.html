@@ -27,7 +27,7 @@
 <div class="container pt-5 mt-5 shadow-lg p-5 mb-5 bg-white rounded">
 	<div class="text-center">
 	<h2>E2E-VGuard: </h2>
-      <h3>Adversarial Prevention for Industrial and LLM-based End-To-End Speech Synthesis</h3>
+      <h3>Adversarial Prevention for Production LLM-based End-To-End Speech Synthesis</h3>
 	[<a href="https://github.com/E2E-VGuard/E2E-VGuard">GitHub</a>]
         <p class="fst-italic mb-0">
       <p></p>
@@ -35,13 +35,13 @@
         <p>Summitted to NeurIPS 2025</p>
 	</div>
 	<p><b>Abstract:</b> 
-		Recent advancements in speech synthesis technology have significantly enriched our daily lives, with high-quality and human-like audio widely adopted across real-world applications. However, malicious exploitation like voice-cloning fraud poses severe security risks. 
-		Existing defense techniques struggle to address industrial-level and large language model (LLM)-based speech synthesis. While previous studies have considered the protection for fine-tuning synthesizers, they assume manually annotated transcripts. 
-		Given the labor intensity of manual annotation, end-to-end systems leveraging automatic speech recognition (ASR) to generate transcripts are becoming increasingly prevalent, e.g., voice cloning via commercial APIs. 
-		Therefore, this end-to-end speech synthesis also requires new security mechanisms. To tackle these challenges, we propose E2E-VGuard, a proactive defense framework for two emerging threats: (1) industrial-level and LLM-based speech synthesis, and (2) the novel attack arising from ASR-driven end-to-end fine-tuning. 
-		Specifically, we employ the encoder ensemble with a feature extractor to protect timbre through feature loss optimization, while ASR-targeted adversarial examples disrupt pronunciation. 
-		Moreover, we incorporate the psychoacoustic model to ensure perturbative imperceptibility. For a comprehensive evaluation, we test 13 open-source synthesizers and 3 commercial APIs across Chinese and English datasets, confirming E2E-VGuard's effectiveness in timbre preservation and pronunciation protection. 
-		Real-world deployment validation is also conducted. Our anonymous demo page is available at https://e2e-vguard.github.io/.
+		Recent advancements in speech synthesis technology have significantly enriched our daily lives, with high-quality and human-like audio widely adopted across real-world applications. 
+		However, malicious exploitation like voice-cloning fraud poses severe security risks. Existing defense techniques struggle to address the production large language model (LLM)-based speech synthesis. 
+		While previous studies have considered the protection for fine-tuning synthesizers, they assume manually annotated transcripts. Given the labor intensity of manual annotation, end-to-end systems leveraging automatic speech recognition (ASR) to generate transcripts are becoming increasingly prevalent, 
+		e.g., voice cloning via commercial APIs. Therefore, this end-to-end speech synthesis also requires new security mechanisms. To tackle these challenges, we propose E2E-VGuard, a proactive defense framework for two emerging threats: (1) production LLM-based speech synthesis, and (2) the novel attack arising from ASR-driven end-to-end fine-tuning. 
+		Specifically, we employ the encoder ensemble with a feature extractor to protect timbre through feature loss optimization, while ASR-targeted adversarial examples disrupt pronunciation. Moreover, we incorporate the psychoacoustic model to ensure perturbative imperceptibility. 
+		For a comprehensive evaluation, we test 13 open-source synthesizers and 3 commercial APIs across Chinese and English datasets, confirming E2E-VGuard's effectiveness in timbre preservation and pronunciation protection. Real-world deployment validation is also conducted. 
+		Our anonymous demo and code are available at https://e2e-vguard.github.io/.
 	</p>
 
 	<p>
